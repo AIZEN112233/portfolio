@@ -10,12 +10,15 @@ const Header = () => {
             variants={fromTopToBottom}
             initial='initial'
             animate='animate'
-            transition={{ duration: 1.5, ease: "easeOut" }}
-            className='sticky flex justify-center top-7'
+            transition={{ duration: 1.5, type: "spring" }}
+            className='sticky top-7 flex justify-center'
         >
-            <nav className='flex gap-[52px] border-4 border-primary rounded-full px-[62px] py-[17px] bg-glassy-white list-none font-normal'>
+            <nav className='hover:shadow-primary-shadow flex list-none gap-[52px] rounded-full border-4 border-primary bg-glassy-white px-[62px] py-[17px] font-normal duration-500'>
                 {navLinks.map((link) => (
-                    <li key={link.title}>
+                    <li
+                        key={link.title}
+                        className='duration-500 hover:scale-110'
+                    >
                         <Link href={link.path}>{link.title}</Link>
                     </li>
                 ))}

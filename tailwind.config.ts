@@ -18,6 +18,9 @@ const config: Config = {
                 primary: "#57084A",
                 "glassy-white": "#1E1E1E",
             },
+            boxShadow: {
+                "primary-shadow": "0 0px 30px 1px #57084A",
+            },
         },
     },
     plugins: [],
