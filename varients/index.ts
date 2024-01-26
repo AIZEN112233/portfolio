@@ -2,6 +2,10 @@ export const fromTopToBottom = {
     initial: { opacity: 0, y: -50 },
     animate: { opacity: 1, y: 0 },
 };
+export const fromBottomToTop = {
+    initial: { opacity: 0, y: 50 },
+    animate: { opacity: 1, y: 0 },
+};
 
 export const defaultOptions = {
     reverse: true,
