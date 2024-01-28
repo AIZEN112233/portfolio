@@ -3,10 +3,12 @@ import { useState } from "react";
 const Tailwind = () => {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className='relative w-fit rounded-xl border-4 border-[#0ED7B5] p-2 drop-shadow-[0_0px_30px_#0ED7B5] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#0ED7B5] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'>
+        <div
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            className='relative w-fit rounded-xl border-4 border-[#0ED7B5] p-2 drop-shadow-[0_0px_30px_#0ED7B5] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#0ED7B5] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
+        >
             <svg
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
                 width='50'
                 height='50'
                 viewBox='0 -51 256 256'

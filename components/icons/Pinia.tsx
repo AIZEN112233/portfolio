@@ -3,10 +3,12 @@ import { useState } from "react";
 const Pinia = () => {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className='relative w-fit rounded-xl border-4 border-[#ffc63a] p-2 drop-shadow-[0_0px_30px_#ffc63a] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#ffc63a] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'>
+        <div
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            className='relative w-fit rounded-xl border-4 border-[#ffc63a] p-2 drop-shadow-[0_0px_30px_#ffc63a] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#ffc63a] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
+        >
             <svg
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
                 className='duration-500'
                 xmlns='http://www.w3.org/2000/svg'
                 xmlnsXlink='http://www.w3.org/1999/xlink'

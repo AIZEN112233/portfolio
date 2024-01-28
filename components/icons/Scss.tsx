@@ -5,10 +5,12 @@ export default function VscodeIconsFileTypeScss(
 ) {
     const [hover, setHover] = useState(false);
     return (
-        <div className='relative w-fit rounded-xl border-4 border-[#cd6799] p-2 drop-shadow-[0_0px_30px_#cd6799] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#cd6799] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'>
+        <div
+            onMouseEnter={() => setHover(true)}
+            onMouseLeave={() => setHover(false)}
+            className='relative w-fit rounded-xl border-4 border-[#cd6799] p-2 drop-shadow-[0_0px_30px_#cd6799] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#cd6799] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
+        >
             <svg
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
                 xmlns='http://www.w3.org/2000/svg'
                 width='50'
                 height='50'
