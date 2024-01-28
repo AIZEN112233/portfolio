@@ -24,36 +24,22 @@ const Skills = () => {
                     Skills
                 </motion.h1>
             </MagnifyEffect>
-            <div className='mt-24 flex flex-col items-center justify-center gap-[42px] max-md:gap-6'>
-                {icons.map((i, index) => (
-                    <motion.div
-                        variants={fromleftToRight}
-                        initial='initial'
-                        whileInView='animate'
-                        transition={{
-                            duration: 2,
-                            type: "spring",
-                            delay: index / 2,
-                        }}
-                        className='flex flex-wrap gap-[36px] max-md:justify-center'
-                    >
-                        {i.map((Icon, index) => (
-                            <motion.div
-                                variants={fromleftToRight}
-                                initial='initial'
-                                whileInView='animate'
-                                transition={{
-                                    duration: 2,
-                                    type: "spring",
-                                    delay: index / 2,
-                                }}
-                            >
-                                <MagnifyEffect>
-                                    <Icon />
-                                </MagnifyEffect>
-                            </motion.div>
-                        ))}
-                    </motion.div>
+            <div className='mx-auto flex max-w-[700px] flex-wrap justify-center gap-x-[36px] gap-y-[42px] max-md:gap-4'>
+                {icons.map((I, index) => (
+                    <MagnifyEffect>
+                        <motion.div
+                            variants={fromleftToRight}
+                            initial='initial'
+                            whileInView='animate'
+                            transition={{
+                                duration: 2,
+                                type: "spring",
+                                delay: index / 4,
+                            }}
+                        >
+                            <I />
+                        </motion.div>
+                    </MagnifyEffect>
                 ))}
             </div>
         </div>

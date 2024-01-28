@@ -40,7 +40,21 @@ export const navLinks = [
 ];
 
 export const icons = [
-    [Next, Unocss, Github, Javascript, Node, Mongo],
-    [Nuxt, Vue, React, Tailwind, Typescript, Css],
-    [Html, Git, Redux, Scss, Pinia],
+    Next,
+    Unocss,
+    Github,
+    Javascript,
+    Node,
+    Mongo,
+    Nuxt,
+    Vue,
+    React,
+    Tailwind,
+    Typescript,
+    Css,
+    Html,
+    Git,
+    Redux,
+    Scss,
+    Pinia,
 ];
