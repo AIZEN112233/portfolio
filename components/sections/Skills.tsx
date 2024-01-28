@@ -24,7 +24,7 @@ const Skills = () => {
                     Skills
                 </motion.h1>
             </MagnifyEffect>
-            <div className='mt-24 flex flex-col items-center justify-center gap-[42px]'>
+            <div className='mt-24 flex flex-col items-center justify-center gap-[42px] max-md:gap-6'>
                 {icons.map((i, index) => (
                     <motion.div
                         variants={fromleftToRight}
@@ -35,7 +35,7 @@ const Skills = () => {
                             type: "spring",
                             delay: index / 2,
                         }}
-                        className='flex gap-[36px]'
+                        className='flex flex-wrap gap-[36px] max-md:justify-center'
                     >
                         {i.map((Icon, index) => (
                             <motion.div

@@ -11,6 +11,9 @@ const Home = () => {
                 <p className='text-2xl'>
                     And yes i dont know how to center a div
                 </p>
+                <p className='text-2xl'>
+                    And yes this website isn't responsive yet
+                </p>
             </div>
         </div>
     );
