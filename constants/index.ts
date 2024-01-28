@@ -15,6 +15,12 @@ import Tailwind from "@/components/icons/Tailwind";
 import Typescript from "@/components/icons/Typescript";
 import Github from "@/components/icons/GitHub";
 import Vue from "@/components/icons/Vue";
+import Home from "@/components/sections/Home";
+import Projects from "@/components/sections/Projects";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
+import Rate from "@/components/sections/Rate";
+import Skills from "@/components/sections/Skills";
 
 export const navLinks = [
     {
@@ -58,3 +64,5 @@ export const icons = [
     Scss,
     Pinia,
 ];
+
+export const sections = [Home, About, Skills, Rate, Projects, Contact];

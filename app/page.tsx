@@ -1,36 +1,22 @@
-import About from "@/components/sections/About";
-import Contact from "@/components/sections/Contact";
-import Home from "@/components/sections/Home";
-import Projects from "@/components/sections/Projects";
-import Rate from "@/components/sections/Rate";
-import Skills from "@/components/sections/Skills";
+"use client";
+import { motion } from "framer-motion";
+import { sections } from "@/constants";
+import { fromBottomToTop } from "@/varients";
 
 const page = () => {
     return (
         <main>
-            <section className='screen-container pt-[100px]'>
-                <Home />
-            </section>
-
-            <section className='screen-container pt-[100px]'>
-                <About />
-            </section>
-
-            <section className='screen-container pt-[100px]'>
-                <Skills />
-            </section>
-
-            <section className='screen-container pt-[100px]'>
-                <Rate />
-            </section>
-
-            <section className='screen-container pt-[100px]'>
-                <Projects />
-            </section>
-
-            <section className='screen-container pt-[100px]'>
-                <Contact />
-            </section>
+            {sections.map((Page, index) => (
+                <motion.section
+                    variants={fromBottomToTop}
+                    initial='initial'
+                    whileInView='animate'
+                    transition={{ duration: 1.5, type: "spring" }}
+                    className={`screen-container ${index !== 0 && "pt-[80px]"}`}
+                >
+                    <Page />
+                </motion.section>
+            ))}
         </main>
     );
 };
