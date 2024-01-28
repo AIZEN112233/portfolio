@@ -6,7 +6,7 @@ const Vue = () => {
         <div
             onMouseLeave={() => setIsHovered(false)}
             onMouseEnter={() => setIsHovered(true)}
-            className='relative w-fit rounded-xl border-4 border-[#41B883] p-2 drop-shadow-[0_0px_30px_#41B883] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#41B883] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
+            className='relative w-fit rounded-xl border-4 border-[#41B883] p-2 after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[100px] after:bg-[#41B883] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
         >
             <svg
                 className='relative  top-1'

@@ -6,7 +6,7 @@ const Pinia = () => {
         <div
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            className='relative w-fit rounded-xl border-4 border-[#ffc63a] p-2 drop-shadow-[0_0px_30px_#ffc63a] after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[1000px] after:bg-[#ffc63a] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
+            className='relative w-fit rounded-xl border-4 border-[#ffc63a] p-2 after:absolute after:left-1/2 after:top-1/2 after:-z-50 after:h-0 after:w-0 after:rounded-[100px] after:bg-[#ffc63a] after:duration-500 after:content-[""] hover:after:inset-0 hover:after:h-full hover:after:w-full hover:after:rounded-md'
         >
             <svg
                 className='duration-500'
