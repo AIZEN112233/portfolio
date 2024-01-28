@@ -36,6 +36,13 @@ const Skills = () => {
                                 type: "spring",
                                 delay: index / 4,
                             }}
+                            drag
+                            dragConstraints={{
+                                top: 0,
+                                left: 0,
+                                right: 0,
+                                bottom: 0,
+                            }}
                         >
                             <I />
                         </motion.div>
