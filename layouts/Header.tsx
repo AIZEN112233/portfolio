@@ -24,7 +24,7 @@ const Header = () => {
                 AIZEN
             </Link>
             <nav
-                className={`flex list-none gap-[52px] rounded-full border-4 border-primary bg-glassy-white px-[62px] py-[17px] font-normal duration-500 hover:shadow-primary-shadow max-md:absolute max-md:top-0 max-md:h-screen max-md:w-screen max-md:flex-col max-md:items-center max-md:justify-center max-md:rounded-none max-md:border-0 max-md:text-[32px] ${isOpen ? " left-0 block" : " left-0 max-md:hidden"}`}
+                className={`flex list-none gap-[52px] rounded-full border-4 border-primary bg-glassy-white px-[62px] py-[17px] font-normal duration-500 hover:shadow-primary-shadow max-md:fixed max-md:top-0 max-md:h-screen max-md:w-screen max-md:flex-col max-md:items-center max-md:justify-center max-md:rounded-none max-md:border-0 max-md:text-[32px] ${isOpen ? " left-0 block" : " left-0 max-md:hidden"}`}
             >
                 {navLinks.map((link) => (
                     <li
