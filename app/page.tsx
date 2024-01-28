@@ -11,7 +11,7 @@ const page = () => {
                     variants={fromBottomToTop}
                     initial='initial'
                     whileInView='animate'
-                    transition={{ duration: 1.5, type: "spring" }}
+                    transition={{ duration: 1.5, type: "spring", delay: 0.3 }}
                     className={`screen-container ${index !== 0 && "pt-[80px]"}`}
                 >
                     <Page />
