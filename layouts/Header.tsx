@@ -43,7 +43,7 @@ const Header = () => {
             </nav>
             <IoMenuOutline
                 onClick={() => setIsOpen(true)}
-                className='hidden text-[29px] hover:text-primary max-md:hidden'
+                className='hidden text-[29px] hover:text-primary max-md:block'
             />
         </motion.header>
     );
