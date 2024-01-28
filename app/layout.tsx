@@ -12,8 +12,10 @@ export default function RootLayout({
     children,
 }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang='en'>
-            <body className={`${poppins.className} bg-black text-white`}>
+        <html lang='en' className='dark'>
+            <body
+                className={`${poppins.className} dark:bg-black dark:text-white`}
+            >
                 <Header />
                 {children}
             </body>
