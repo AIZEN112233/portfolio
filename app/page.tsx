@@ -1,9 +1,9 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Home from "@/components/Home";
-import Projects from "@/components/Projects";
-import Rate from "@/components/Rate";
-import Skills from "@/components/Skills";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
+import Home from "@/components/sections/Home";
+import Projects from "@/components/sections/Projects";
+import Rate from "@/components/sections/Rate";
+import Skills from "@/components/sections/Skills";
 
 const page = () => {
     return (
