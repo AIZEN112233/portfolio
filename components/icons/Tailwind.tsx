@@ -27,12 +27,12 @@ const Tailwind = () => {
                     >
                         <stop
                             className='duration-500'
-                            stop-color={!isHovered ? "#2298BD" : "#fff"}
+                            stopColor={!isHovered ? "#2298BD" : "#fff"}
                             offset='0%'
                         ></stop>
                         <stop
                             className='duration-500'
-                            stop-color={!isHovered ? "#0ed7b5" : "#fff"}
+                            stopColor={!isHovered ? "#0ed7b5" : "#fff"}
                             offset='100%'
                         ></stop>
                     </linearGradient>

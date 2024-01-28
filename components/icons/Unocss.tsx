@@ -17,7 +17,7 @@ export default function VscodeIconsFileTypeUnocss(
                 viewBox='0 0 32 32'
                 {...props}
             >
-                <g stroke-width='.13'>
+                <g strokeWidth='.13'>
                     <path
                         fill={!hover ? "#858585" : "#fff"}
                         className='duration-500'

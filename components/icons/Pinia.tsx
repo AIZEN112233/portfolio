@@ -17,8 +17,8 @@ const Pinia = () => {
                 width='50'
             >
                 <linearGradient id='a'>
-                    <stop offset='0' stop-color='#52ce63' />
-                    <stop offset='1' stop-color='#51a256' />
+                    <stop offset='0' stopColor='#52ce63' />
+                    <stop offset='1' stopColor='#51a256' />
                 </linearGradient>
                 <linearGradient
                     id='b'
@@ -43,8 +43,8 @@ const Pinia = () => {
                     y1='0%'
                     y2='58.811243%'
                 >
-                    <stop offset='0' stop-color='#8ae99c' />
-                    <stop offset='1' stop-color='#52ce63' />
+                    <stop offset='0' stopColor='#8ae99c' />
+                    <stop offset='1' stopColor='#52ce63' />
                 </linearGradient>
                 <linearGradient
                     id='e'
@@ -56,17 +56,17 @@ const Pinia = () => {
                     <stop
                         className='duration-500'
                         offset='0'
-                        stop-color={!isHovered ? "#ffe56c" : "#fff"}
+                        stopColor={!isHovered ? "#ffe56c" : "#fff"}
                     />
                     <stop
                         offset='1'
                         className='duration-500'
-                        stop-color={!isHovered ? "#ffc63a" : "#fff"}
+                        stopColor={!isHovered ? "#ffc63a" : "#fff"}
                     />
                 </linearGradient>
                 <g
                     fill='none'
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     transform='translate(-34 -24)'
                 >
                     <g transform='matrix(.99254615 .12186934 -.12186934 .99254615 33.922073 .976691)'>
@@ -108,9 +108,9 @@ const Pinia = () => {
                         <path
                             d='m73.1046985 58.2728794c6.7372416 4.9130333 14.3132632 6.6640587 22.7280649 5.2530761 8.4148016-1.4109825 14.5054466-5.2535769 18.2719346-11.527783'
                             stroke='#000'
-                            stroke-linecap='round'
-                            stroke-linejoin='round'
-                            stroke-width='6'
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='6'
                             transform='matrix(.9998477 .01745241 -.01745241 .9998477 1.026464 -1.624794)'
                         />
                         <path
@@ -128,20 +128,20 @@ const Pinia = () => {
                         <g fill='#fff'>
                             <path
                                 d='m136 24.499438c0 10.2185232 8.282911 18.500562 18.501124 18.500562 10.217089 0 18.498876-8.2820388 18.498876-18.500562 0-10.2173992-8.281787-18.499438-18.498876-18.499438-10.218213 0-18.501124 8.2820388-18.501124 18.499438zm-6 0c0-13.5311954 10.96929-24.499438 24.501124-24.499438 13.530838 0 24.498876 10.9683711 24.498876 24.499438 0 13.5319607-10.967808 24.500562-24.498876 24.500562-13.532064 0-24.501124-10.9684728-24.501124-24.500562z'
-                                fill-rule='nonzero'
+                                fillRule='nonzero'
                                 stroke='#fff'
-                                stroke-width='3'
+                                strokeWidth='3'
                             />
                             <path
                                 d='m6 34.499438c0 10.2185232 8.2817873 18.500562 18.5 18.500562 10.2170889 0 18.5-8.2820388 18.5-18.500562 0-10.2173992-8.2829111-18.499438-18.5-18.499438-10.2182127 0-18.5 8.2820388-18.5 18.499438zm-6 0c0-13.531297 10.9682681-24.499438 24.5-24.499438 13.5309398 0 24.5 10.9684728 24.5 24.499438 0 13.5318591-10.96883 24.500562-24.5 24.500562-13.531962 0-24.5-10.9683711-24.5-24.500562z'
-                                fill-rule='nonzero'
+                                fillRule='nonzero'
                                 stroke='#fff'
-                                stroke-width='3'
+                                strokeWidth='3'
                             />
                             <path d='m24 31c0-3.865549 3.134451-7 7-7s7 3.134451 7 7-3.134451 7-7 7-7-3.134451-7-7z' />
                         </g>
                     </g>
-                    <g stroke-linecap='round' stroke-width='11'>
+                    <g strokeLinecap='round' strokeWidth='11'>
                         <g
                             stroke={!isHovered ? "#ecb732" : "#fff"}
                             className='duration-500'
