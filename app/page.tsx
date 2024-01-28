@@ -8,27 +8,27 @@ import Skills from "@/components/sections/Skills";
 const page = () => {
     return (
         <main>
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <Home />
             </section>
 
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <About />
             </section>
 
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <Skills />
             </section>
 
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <Rate />
             </section>
 
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <Projects />
             </section>
 
-            <section className='screen-container'>
+            <section className='screen-container pt-[100px]'>
                 <Contact />
             </section>
         </main>

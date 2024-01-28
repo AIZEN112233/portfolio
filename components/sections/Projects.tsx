@@ -1,5 +1,11 @@
+import MagnicEffect from "../MagnifyEffect";
+
 const Projects = () => {
-    return <div>Projects</div>;
+    return (
+        <div className='grid place-items-center text-[50px]'>
+            <MagnicEffect>Projects</MagnicEffect>
+        </div>
+    );
 };
 
 export default Projects;
