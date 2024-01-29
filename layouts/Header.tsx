@@ -51,4 +51,3 @@ const Header = () => {
 };
 
 export default Header;
-//${isOpen ? " left-0 block" : " left-0 max-md:hidden"}`}
